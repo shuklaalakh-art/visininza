@@ -1,0 +1,6 @@
+{
+  "name": "VisiNinja - XLSX Cleaner & Evergreen Chart Chooser",
+  "description": "Feed raw XLSX data, clean and normalize it, and generate/download all sensible charts using Stephanie Evergreen's Effective Data Visualization principles. Created by Alakh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

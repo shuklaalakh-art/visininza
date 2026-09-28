@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#091e2b"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="action" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="#0d9488" stroke-width="4" stroke-opacity="0.4"/>
+
+  <!-- Stephanie Evergreen Muted Bars -->
+  <rect x="110" y="260" width="56" height="150" rx="12" fill="#475569"/>
+  <rect x="194" y="190" width="56" height="220" rx="12" fill="#64748b"/>
+  <!-- Action Color Bar -->
+  <rect x="278" y="120" width="56" height="290" rx="12" fill="url(#action)"/>
+
+  <!-- Target Benchmark Line -->
+  <line x1="80" y1="170" x2="380" y2="170" stroke="#f43f5e" stroke-width="10" stroke-dasharray="14 10"/>
+
+  <!-- Ninja Headband -->
+  <path d="M 70 90 Q 256 70 442 90 L 434 140 Q 256 120 78 140 Z" fill="#0f172a" stroke="#14b8a6" stroke-width="6"/>
+
+  <!-- Headband Knot Tails -->
+  <path d="M 434 110 C 470 90, 490 70, 500 75 C 490 110, 470 120, 438 128 Z" fill="#14b8a6"/>
+  <path d="M 436 124 C 470 140, 490 170, 495 190 C 475 170, 460 150, 430 134 Z" fill="#0d9488"/>
+
+  <!-- Cleveland McGill Dot Plot Node -->
+  <circle cx="278" cy="120" r="24" fill="#38bdf8" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="380" cy="170" r="18" fill="#f43f5e" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- Eye slit focus -->
+  <ellipse cx="210" cy="106" rx="18" ry="7" fill="#38bdf8" opacity="0.9"/>
+  <ellipse cx="300" cy="106" rx="18" ry="7" fill="#38bdf8" opacity="0.9"/>
+</svg>

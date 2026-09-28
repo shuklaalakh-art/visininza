@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "VisiNinja - XLSX Cleaner & Evergreen Charts",
+  "short_name": "VisiNinja",
+  "description": "Feed raw XLSX data, clean and normalize it, and download sensible charts using Stephanie Evergreen's principles. Created by Alakh.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities", "business"]
+}
